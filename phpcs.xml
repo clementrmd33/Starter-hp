@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<ruleset name="monFramework">
+  <description>Mes règles</description>
+
+  <args name="colors"/>
+  <args value="p"/>
+
+  <file>src</file>
+
+  <rule ref="PSR2"></rule>
+  <rule ref="Generic.Arrays.DisallowLongArraySyntax"></rule>
+</ruleset>
